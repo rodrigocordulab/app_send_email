@@ -12,7 +12,7 @@
 		<div class="container">  
 
 			<div class="py-3 text-center">
-				<img class="d-block mx-auto mb-2" src="logo.png" alt="" width="72" height="72">
+				<img class="d-block mx-auto mb-2" src="./assets/logo.png" alt="" width="72" height="72">
 				<h2>Send Mail</h2>
 				<p class="lead">Seu app de envio de e-mails particular!</p>
 			</div>
@@ -21,7 +21,7 @@
       			<div class="col-md-12">
   				
 					<div class="card-body font-weight-bold">
-						<form action="processa_envio.php" method="post">
+						<form action="./processo/processa_envio.php" method="post">
 							<div class="form-group">
 								<label for="para">Para</label>
 								<input name="para" type="text" class="form-control" id="para" placeholder="joao@dominio.com.br">
